@@ -1,6 +1,4 @@
 # JAVE
-A simple fork for JAVE SAURONS SOFTWARE in order to use with Maven :)
-
 The **JAVE (Java Audio Video Encoder) library is Java wrapper on the [ffmpeg](https://www.ffmpeg.org/) project. Developers can take take advantage of JAVE to transcode audio and video files from a format to another. In example you can transcode an AVI file to a MPEG one, you can change a DivX video stream into a (youtube like) Flash FLV one, you can convert a WAV audio file to a MP3 or a Ogg Vorbis one, you can separate and transcode audio and video tracks, you can resize videos, changing their sizes and proportions and so on. Many other formats, containers and operations are supported by JAVE.**
 
 Requirements
