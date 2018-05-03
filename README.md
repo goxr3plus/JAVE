@@ -9,6 +9,17 @@ For example (for JAVASYSMON) in my computer i do the following :
 
 > mvn install:install-file -Dfile=D:\GitHub\XR3Player\localLibraries\jave-1.0.2.jar -DgroupId=it.sauronsoftware.jave -DartifactId=jave -Dversion=1.0.2 -Dpackaging=jar
 
+Then add it on the dependencies like this:
+
+```XML
+<!-- JAVE -->
+<dependency>
+	<groupId>it.sauronsoftware.jave</groupId>
+	<artifactId>jave</artifactId>
+	<version>1.0.2</version>
+</dependency>
+```
+
 **Download the .jar file i added on releases** , because if you use JitPack you will get the wrong .jar which produces errors .
 
 
