@@ -1,3 +1,17 @@
+[![HitCount](http://hits.dwyl.io/goxr3plus/JAVE.svg)](http://hits.dwyl.io/goxr3plus/JAVE)
+
+# How to add it on your Maven Project ?
+
+For them [follow this tutorial to add them to your Local Maven Repository](https://www.mkyong.com/maven/how-to-include-library-manully-into-maven-local-repository/) 
+
+
+For example (for JAVASYSMON) in my computer i do the following :
+
+> mvn install:install-file -Dfile=D:\GitHub\XR3Player\localLibraries\jave-1.0.2.jar -DgroupId=it.sauronsoftware.jave -DartifactId=jave -Dversion=1.0.2 -Dpackaging=jar
+
+**Download the .jar file i added on releases** , because if you use JitPack you will get the wrong .jar which produces errors .
+
+
 # JAVE
 The **JAVE (Java Audio Video Encoder) library is Java wrapper on the [ffmpeg](https://www.ffmpeg.org/) project. Developers can take take advantage of JAVE to transcode audio and video files from a format to another. In example you can transcode an AVI file to a MPEG one, you can change a DivX video stream into a (youtube like) Flash FLV one, you can convert a WAV audio file to a MP3 or a Ogg Vorbis one, you can separate and transcode audio and video tracks, you can resize videos, changing their sizes and proportions and so on. Many other formats, containers and operations are supported by JAVE.**
 
