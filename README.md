@@ -1,3 +1,5 @@
+# NO LONGER SUPPORTED , CHECK THE NEWEST VERION -> [jave2](https://github.com/goxr3plus/jave2)
+
 [![HitCount](http://hits.dwyl.io/goxr3plus/JAVE.svg)](http://hits.dwyl.io/goxr3plus/JAVE)
 
 # How to add it on your Maven Project ?
